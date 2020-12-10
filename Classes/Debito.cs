@@ -6,5 +6,10 @@ namespace Abstracao_POO.Classes
         public void Pagar(float valor){
             
         }
+
+        public override void Pagar()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

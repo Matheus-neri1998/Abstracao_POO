@@ -18,5 +18,7 @@ namespace Abstracao_POO.Classes
         public string SalvarCartao(){
             return "";
         }
+        
+        public abstract void Pagar();
     }
 }
